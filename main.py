@@ -30,7 +30,7 @@ def main():
 
     
     print("Tahap Load: Menyimpan data ke Google Sheets...")
-    spreadsheet_id = '1QLWBNdKIhIiA9vlThFBm3fJpgEXl_1o5fLMZWcEpPVk'
+    spreadsheet_id = 'ID-SPREAD-SHEET-KAMU'
     sheets_success = load_data_to_google_sheets(transformed_df, spreadsheet_id)
     if not sheets_success:
         print("Penyimpanan data ke Google Sheets gagal.")
